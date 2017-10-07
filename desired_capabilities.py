@@ -3,10 +3,10 @@ import os
 
 def get_desired_capabilities():
     desired_caps = {
-        'platformName': 'iOS',
-        'platformVersion': '10.3',
-        'deviceName': 'iPhone 7',
-        'browserName': 'Safari',
+        'platformName': 'Android',
+        'platformVersion': '6.0.1',
+        'deviceName': 'Sony',
+        'browserName': 'Chrome',
         'autoAcceptAlerts': 'true',
     }
     return desired_caps

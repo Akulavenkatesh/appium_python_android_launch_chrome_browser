@@ -11,5 +11,5 @@ class TestMobileWeb(unittest.TestCase):
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     def testmobileweb(self):
-        self.driver.get('https://www.exploretrip.com/')
+        self.driver.get('https://www.google.com/')
         sleep(15)
